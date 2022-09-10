@@ -31,17 +31,17 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "王子睿",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "o8ZX15lvzXnOT9yNYdTBJiksUIPI",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "	k9k-6k8tOMivYpfH4E8bB9zWGoEkoB7l32Kj2oUESq4",
       // 所在省份
-      province: "广东",
+      province: "江西",
       // 所在城市
-      city: "肇庆",
+      city: "南昌",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '今日',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
@@ -108,7 +108,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "MPJJWWm8gf3_CbnYPaFe2c6eRcMlIeR2WHHfAUD5NQk",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -116,7 +116,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "o8ZX15lvzXnOT9yNYdTBJiksUIPI",
     },
   ],
 
